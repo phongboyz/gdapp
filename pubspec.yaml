@@ -1,0 +1,61 @@
+name: gd
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  ###need to generate
+  get_it: ^7.6.0
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  injectable: ^2.1.2
+  freezed_annotation: ^2.4.4
+  freezed: ^2.5.7
+  hive_generator: ^2.0.0
+  ###
+  easy_localization: ^3.0.2
+  flutter_bloc: ^8.1.3
+  modal_bottom_sheet: ^3.0.0
+  lottie: ^3.1.2
+  fluttertoast: ^8.2.1
+  internet_connection_checker: ^1.0.0+1
+  dio: ^5.2.1+1
+  retrofit: ^4.0.1
+  flutter_form_builder: ^9.0.0
+  form_builder_validators: ^11.0.0
+  image_picker: ^1.0.1
+  shared_preferences: ^2.2.0
+  logger: ^2.4.0
+  hive: ^2.2.3
+  json_annotation: ^4.8.1
+  path_provider: ^2.0.15
+  hive_flutter: ^1.1.0
+  provider: ^6.0.5
+  flutter_svg: ^2.0.7
+  badges: ^3.1.1
+  qr_code_scanner: ^1.0.1
+  screenshot: ^3.0.0
+  printing: ^5.11.0
+  pdf: ^3.10.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  ###need to generate
+  build_runner: ^2.3.3
+  json_serializable: ^6.7.1
+  injectable_generator: ^2.6.1
+  retrofit_generator: ^8.1.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
+    - assets/images/
+    - assets/lotties/
+    - assets/fonts/
